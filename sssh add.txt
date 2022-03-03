@@ -1,0 +1,9 @@
+install certbot on ubuntu
+--------------------------------------------------
+1. sudo add-apt-repository ppa:certbot/certbot
+
+2. sudo apt-get update
+
+3. sudo apt-get install python-certbot-apache
+
+4. sudo certbot --apache -d domain.com
